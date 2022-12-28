@@ -13,6 +13,17 @@ function createGrid(axis) {
 
 }
 
+function clearGrid() {
+    const clearButton = document.querySelector('.clear');
+    clearButton.addEventListener('click', function () {
+        const gridSquares = document.querySelectorAll('.grid-item');
+
+        gridSquares.forEach(function (gridSquare) {
+            gridSquare.style.backgroundColor = '';
+        });
+    });
+}
+
 function changeColor() {
     const gridSquares = document.querySelectorAll('.grid-item');
 
