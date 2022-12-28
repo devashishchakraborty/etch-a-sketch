@@ -28,4 +28,16 @@ function changeColor() {
 
 let squares = 16;
 const gridContainer = document.querySelector('.grid-container');
+createGrid(squares);
+changeColor();
+clearGrid();
 
+const promptButton = document.querySelector('.btn-prompt');
+promptButton.addEventListener('click', function () {
+    squares = prompt("Enter the number of squares per axis (Max 100).");
+    while (squares > 100 || squares < 1 || isNaN(squares)) {
+        squares = prompt("Enter a valid number between 1 to 100");
+    }
+    createGrid(squares);
+    changeColor();
+})
