@@ -52,3 +52,4 @@ promptButton.addEventListener('click', function () {
     createGrid(squares);
     changeColor();
 })
+
