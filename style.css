@@ -1,0 +1,24 @@
+body{
+    background-color: #75DBDB;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: #5693F6;
+    border: 2px solid #230C63;
+    border-radius: 8px;
+    max-width: 1000px;
+    height: 750px;
+    margin: auto;
+    padding: 16px;
+}
+
+header{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
