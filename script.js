@@ -13,6 +13,19 @@ function createGrid(axis) {
 
 }
 
+function changeColor() {
+    const gridSquares = document.querySelectorAll('.grid-item');
+
+    gridSquares.forEach(function (gridSquare) {
+        gridSquare.addEventListener('mouseenter', function () {
+            let colorRed = Math.floor(Math.random() * 255);
+            let colorBlue = Math.floor(Math.random() * 255);
+            let colorGreen = Math.floor(Math.random() * 255);
+            gridSquare.style.backgroundColor = `rgb(${colorRed},${colorGreen},${colorBlue})`;
+        },);
+    });
+}
+
 let squares = 16;
 const gridContainer = document.querySelector('.grid-container');
 
