@@ -22,3 +22,17 @@ header{
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.grid-container{
+    display: grid;
+    background-color: #FFF9CF;
+    border: 4px solid #230C63;
+    height: 600px;
+    width: 600px;
+    /* justify-content: stretch; */
+}
+
+.grid-item{
+    border-top: 1px solid rgba(98, 98, 98, 0.24);
+    border-left: 1px solid rgba(98, 98, 98, 0.24);
+}
