@@ -23,6 +23,25 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.btn-prompt, .clear{
+    background-color: #230C63;
+    border: 2px solid #FFF9CF;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 8px 16px;
+    color: #FFF9CF;
+}
+
+.clear{
+    border: 2px solid #230C63;
+    background-color: #FFF9CF;
+    color: #230C63;
+}
+
+.btn-prompt:active, .clear:active{
+    transform: translateX(2px) translateY(4px);
+}
+
 .grid-container{
     display: grid;
     background-color: #FFF9CF;
