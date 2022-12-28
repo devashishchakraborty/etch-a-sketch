@@ -1,1 +1,1 @@
-#Etch-a-Sketch Project using JS
+# Etch-a-Sketch Project using JS
