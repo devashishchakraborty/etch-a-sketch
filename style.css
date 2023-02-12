@@ -30,7 +30,7 @@ header{
 
 .btn-prompt, .clear{
     background-color: #230C63;
-    border: 2px solid #FFF9CF;
+    border: none;
     border-radius: 16px;
     font-size: 24px;
     padding: 8px 16px;
